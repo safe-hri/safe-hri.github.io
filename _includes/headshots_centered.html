@@ -1,0 +1,41 @@
+{%- assign w = 3 -%}
+{%- assign w_xs = 4 -%}
+{%- assign ct = 12 | divided_by: w -%}
+{%- assign ct_xs = 12 | divided_by: w_xs -%}
+
+
+{%- assign i = 0 -%}
+
+<div class="row" >
+
+{%- for person in include.people -%}
+
+{%- assign n = i | modulo: ct -%}
+{%- assign n_xs = i | modulo: ct_xs -%}
+
+{%- if n == 0 and i > 0 -%}
+<div class="clearfix hidden-xs"></div>
+{%- endif -%}
+
+{%- if n_xs == 0 and i > 0 -%}
+<div class="clearfix visible-xs-block"></div>
+{%- endif -%}
+
+{%- assign i = i | plus: 1 -%}
+
+{% capture photo_url %}{{page.data_dir}}img/{{person.category}}/{{person.photo}}{% endcapture %}
+
+  <div class="col-sm-{{w}} col-xs-{{w_xs}}">
+    <a href="{{ person.url }}">
+      <img class="people-pic" src="{{ photo_url }}">
+    </a>
+    <div class="people-name">
+      <a href="{{ person.url }}">{{ person.name }}</a>
+      <h6>{{ person.affil }}</h6>
+    </div>
+  </div>
+
+{%- endfor -%}
+
+</div>
+

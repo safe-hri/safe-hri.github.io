@@ -1,0 +1,15 @@
+urltitle:  "Safe HRI"
+title: "Safety and Normative Behaviors in Human-Robot Interaction"
+email: dennler@usc.edu
+description: Safety and Normative Behaviors in Human-Robot Interaction at RSS
+keywords: robotics, human-robot interaction, safety, normative behaviors
+
+
+
+baseurl: "" # the subpath of your site, e.g. /blog
+
+# Build settings
+markdown: kramdown
+include: ['_pages']
+
+# Google Analytics

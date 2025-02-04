@@ -1,0 +1,25 @@
+- name: "TBD"
+  start_time: "8:00 AM"
+  end_time: "10:00 AM"
+  sub_events:
+- name: "Coffee Break"
+  start_time: "10:00 AM"
+  end_time: "10:30 AM"
+- name: "TBD"
+  start_time: "10:30 AM"
+  end_time: "12:30 PM"
+- name: "Lunch Break"
+  start_time: "12:30 PM"
+  end_time: "2:00 PM"
+- name: "TBD"
+  start_time: "2:00 PM"
+  end_time: "3:30 PM"
+- name: Coffee Break
+  start_time: "3:30 PM"
+  end_time: "4:00 PM"
+- name: Panel Discussion
+  start_time: "5:00 PM"
+  end_time: "6:00 PM"
+  sub_events:
+    - name: "Panelists: Tapo Bhattacharjee, TBD, TBD TBD, TBD TBD, TBD TBD"
+

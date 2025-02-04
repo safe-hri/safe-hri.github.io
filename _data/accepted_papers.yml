@@ -1,0 +1,21 @@
+# - title: Attention as inference with third-order interactions
+#   authors: Yicheng Fei, Xaq Pitkow
+#   tldr: ''
+#   abstract: In neuroscience, attention has been associated operationally with enhanced
+#     processing of certain sensory inputs depending on external or internal contexts
+#     such as cueing, salience, or mental states. In machine learning, attention usually
+#     means a multiplicative mechanism whereby the weights in a weighted summation of
+#     an input vector are calculated from the input itself or some other context vector.
+#     In both scenarios, attention can be conceptualized as a gating mechanism. In this
+#     paper, we argue that three-way interactions serve as a normative way to define
+#     a gating mechanism in generative probabilistic graphical models. By going a step
+#     beyond pairwise interactions, it empowers much more computational efficiency,
+#     like a transistor expands possible digital computations. Models with three-way
+#     interactions are also easier to scale up and thus to implement biologically. As
+#     an example application, we show that a graphical model with three-way interactions
+#     provides a normative explanation for divisive normalization in macaque primary
+#     visual cortex, an operation adopted widely throughout the cortex to reduce redundancy,
+#     save energy, and improve computation.
+#   decision: Accept (Poster)
+#   pdf_file: fei-attention_as_inference_with_thirdorder_interactions.pdf
+#   video: https://www.youtube.com/watch?v=L_Y5xABhFlA&list=PLfL8jnQpWpbGM9wD_1Y8bKLDQ2pdXy_XQ&index=1
