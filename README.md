@@ -1,4 +1,4 @@
-# A Focus on Attention Workshop Webpage
+# Safe HRI Workshop
 
 ## Previewing your changes
 
