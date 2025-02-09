@@ -28,14 +28,14 @@
   category: speakers
   panelist: true
 
-- name: TBD Speaker
-  url: 
-  photo: tbd1.jpg
-  affil: 
-  talk_title: Speaker info coming soon.
+- name: Changliu Liu
+  url: http://icontrol.ri.cmu.edu/
+  photo: CL.jpg
+  affil: Intelligent Control Lab, CMU
+  talk_title: Confirmed Speaker
   talk_abstract: |
     Talk description coming soon.
   category: speakers
-  panelist: false
+  panelist: true
 
 
