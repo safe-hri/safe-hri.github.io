@@ -3,13 +3,18 @@
   photo: AB.jpg
   affil: CLEAR Lab, MIT
   category: panelists
-- name: TBD
-  url: 
-  photo: tbd2.jpg
-  affil: TBD
+- name: Vaibhav Unhelkar
+  url: https://unhelkar.github.io/group/
+  photo: VU.jpg
+  affil: Human-Centered AI and Robotics Group, Rice
   category: panelists
-- name: TBD
-  url: 
-  photo: tbd3.jpg
-  affil: TBD
+- name: Ding Zhao
+  url: https://safeai-lab.github.io/
+  photo: DZ.png
+  affil: Safe AI Lab, CMU
+  category: panelists
+- name: Serena Booth
+  url: https://slbooth.com/
+  photo: SB.jpg
+  affil: Brown
   category: panelists
