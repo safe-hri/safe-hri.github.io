@@ -1,9 +1,9 @@
 - name: "Opening Remarks"
-  start_time: 9:00 AM"
+  start_time: "9:00 AM"
   end_time: "9:15 AM"
   sub_events:
 - name: "Keynote I"
-  start_time: 9:15 AM"
+  start_time: "9:15 AM"
   end_time: "10:00 AM"
   sub_events:
 - name: "Coffee Break"
